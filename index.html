@@ -5,17 +5,17 @@
     <title> Have some fun with Porunga2 team</title>
 </head>
 <link rel="stylesheet" href="cssstyle.css"/>
-<script src="global.js" type="javascript"></script>
-<body>
+<script src="global.js"></script>
+<body onload="javascript: NAVBAR.chooseMenuItem('menu-item-home');">
 <header>
     <h1><a href="index.html" target="_self">PORUNGA2</a></h1>
     <h3>Sky is the Limit. <strong><a href="https://softuni.bg" target="_blank">SoftUni.bg</a> </strong> is the rocket! </h3>
 </header>
 <nav>
     <ul>
-        <li><br/>HOME</li>
-        <li><br/>BECOME A DESIGNER</li>
-        <li><br/>ABOUT</li>
+        <li id="menu-item-home" onclick="NAVBAR.chooseMenuItem(id)"><br/>HOME</li>
+        <li id="menu-item-become-designer" onclick="NAVBAR.chooseMenuItem(id)"><br/>BECOME A DESIGNER</li>
+        <li id="menu-item-about" onclick="NAVBAR.chooseMenuItem(id)"><br/>ABOUT</li>
     </ul>
 </nav>
 <section id="home-content">
@@ -44,6 +44,12 @@
     </article>
 
 
+</section>
+<section id="become-designer-content">
+    become a designer content
+</section>
+<section id="about-content">
+    about content
 </section>
 <footer>
     <section>

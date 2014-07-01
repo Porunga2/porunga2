@@ -93,6 +93,7 @@ body>nav ul li:nth-child(3) {
     min-height: 500px;
     padding: 15px;
     margin: 30px auto;
+    display: block;
 }
 #home-content h1 {
     font-family: Geneva, sans-serif;
@@ -152,6 +153,26 @@ body>nav ul li:nth-child(3) {
     text-align: center;
     color: forestgreen;
     margin-bottom: 10px;
+}
+#become-designer-content {
+    clear: both;
+    width: 1000px;
+    height: 70%;
+    min-height: 500px;
+    padding: 15px;
+    margin: 30px auto;
+    margin-bottom: 100px;
+    display: none;
+}
+#about-content {
+    clear: both;
+    width: 1000px;
+    height: 70%;
+    min-height: 500px;
+    padding: 15px;
+    margin: 30px auto;
+    margin-bottom: 100px;
+    display: none;
 }
 
 body>nav ul li:hover {
