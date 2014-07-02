@@ -7,7 +7,6 @@ var NAVBAR = {
         if (id == this.lastId) {
             return;
         } else {
-            console.log(this.getContentId(this.lastId));
             this.hideContent(this.getContentId(this.lastId));
             this.showContent(this.getContentId(id));
             this.lastId = id;
